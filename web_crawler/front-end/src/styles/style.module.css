@@ -1,0 +1,200 @@
+.numberInput{
+    
+    width:400px;
+    height:50px;
+    font-size: 25px;
+    color: rgba(108, 109, 110, 0.726);
+    text-align: center;
+    letter-spacing: 10px;
+    border-radius: 10px;
+    border:2px solid rgba(16, 119, 228, 0.725);
+    outline-color: rgba(16, 119, 228, 0.725);;
+}
+
+.otpGenerateBtn_div,.numberInput_div{
+    margin-top: 50px;
+
+    
+    justify-content: center;
+
+}
+
+.otpGenerateBtn{
+    border-radius: 40px;
+    height:3rem;
+    width: 20rem;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgb(24, 133, 236);
+    border: none;
+}
+
+.outer{
+    width: 100vw;
+    height: 100vh;
+   
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    width: 500px;
+    height: 500px;
+    
+    border-radius: 12px;
+    background-color: white;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+
+}
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+   
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+   
+    width: 90%;
+    height: 90%;
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    overflow-x: hidden;
+    
+    overflow-y: auto;
+   
+  }
+  .modalContainer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+  .modalInnerContainer{
+    margin-top: 20px;
+  }
+
+  .modalContainer .modalTitle {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+  .errroModalBackground {
+    width: 100vw;
+    height: 100vh;
+   
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .errorModalContainer {
+    margin-top: 50%;
+    width: 100%;
+    /* height: 10%; */
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    overflow-x: hidden;
+    
+    overflow-y: auto;
+   
+  }
+  .errorModalContainer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+  .errorModalInnerContainer{
+    margin-top: 20px;
+  }
+
+  .errorModalContainer .errorModalTitle {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .modalContainerFooter{
+    margin-top: 50px;
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.footerNumberChange{
+    display: flex;
+    margin-left: 0;
+    font-weight: 500;
+    color: rgb(20, 141, 211);
+    border: none;
+    background-color: #fff;
+}
+
+.footerResendBtn{
+   float: right;
+   padding-left: 200px;
+   font-weight: 600;
+   color: rgb(20, 141, 211);
+   border: none;
+   background-color: #fff;
+}
+
+.modalInput{
+    width:50px;
+    height:25px;
+    margin-left: 10px;
+    outline: 0;
+    border-width: 0px 0px 2px ;
+    border-color: rgb(24, 236, 137); ;
+    
+   
+}
+
+.verifyBtn_div{
+    margin-top: 50px;
+    display: flex;
+    
+    
+    justify-content: center;
+
+}
+.verifyBtn{
+    border-radius: 50%;
+    height:3rem;
+    width: 3rem;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgb(236, 24, 45);
+    border: none;
+    
+    
+}
+ 
