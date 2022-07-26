@@ -7,7 +7,9 @@ from flask_restful import Api
 from flask_cors import CORS, cross_origin
 from bs4 import BeautifulSoup
 # from bson.objectid import ObjectId
+import os
 
+main_path = os.path.dirname(__file__)
 
 app = Flask(__name__)
 api = Api(app)
@@ -90,9 +92,9 @@ def postData():
         info=str(soup)
 
     
- 
-        file1 = open(f"{file_name}.txt", "w") 
-        with open(f"{file_name}.txt", "w", encoding = 'utf-8') as file:
+
+        file1 = open(f"data/{file_name}.txt", "w") 
+        with open(f"data/{file_name}.txt", "w", encoding = 'utf-8') as file:
         
         # converted it into a string
             file.write(str(soup.prettify()))
