@@ -54,9 +54,7 @@ const ContactUs = () => {
         </div>
      
     </div>
-    <div style={{"marginTop":"-70px"}}>
-       <Footer/> 
-    </div>
+   
     
     </>
   )
