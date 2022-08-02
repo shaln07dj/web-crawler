@@ -13,3 +13,23 @@
     
 
 }
+.grad{
+    margin-top: 0vh;
+    background-image: linear-gradient(to bottom right,rgb(75, 147, 242) , rgb(236, 239, 244));
+    opacity: .5;
+    height:40vh;
+    width:100%;
+    border-radius: 10px;
+    /* z-index: -1; */
+   
+}
+
+.content{
+z-index: 2;
+margin-left: 2vw;
+margin-top: 5vh;
+float: left;
+color: #ffff;
+
+font-size: xx-large;
+}
