@@ -1,0 +1,55 @@
+.outer{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    width: 90%;
+    height: 150vh;
+    text-align: center;
+   
+}
+
+.left{
+    display: inline-block;
+    /* background-color: aliceblue; */
+    float: left;
+    width: 60%;
+    height: 150vh;
+    background-image: url("../images/legal.jpg"); 
+    background-repeat: no-repeat;
+    border-radius:10px;
+ 
+}
+
+.right{
+    float: left;
+    margin-top: 200px;
+    margin-left: -250px;
+    background-image: url("../images/background.jpg"); 
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 350px;
+
+}
+.p_styles{
+ text-align: left;
+ margin-left: 30px;
+ color: #fff;
+}
+
+.h2_styles{
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.para{
+    width: 550px;
+}
+
+
+
+
