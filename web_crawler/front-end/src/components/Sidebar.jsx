@@ -42,27 +42,27 @@ const Sidebar = () => {
           
             <div className={styles.sub_section}>
                 <div className={styles.sub_section_title}>
-                    SUMMARIES
+                    ORGANISATIONS
                 </div>
                 <div className={styles.sub_section_item}>
-                    Overview
+                     People
                 </div>
                 <div className={styles.sub_section_item}>
-                    Overview
+                   Teams/Skills
                 </div>
             </div>
             <div className={styles.sub_section}>
                 <div className={styles.sub_section_title}>
-                    SUMMARIES
+                    LEARNING
                 </div>
                 <div className={styles.sub_section_item}>
-                    Overview
+                    Learning Path
                 </div>
                 <div className={styles.sub_section_item}>
-                    Overview
+                    Assessments
                 </div>
                 <div className={styles.sub_section_item}>
-                    Overview
+                    Setting
                 </div>
             </div>
         </div>
