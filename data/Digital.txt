@@ -233,51 +233,20 @@
          <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
          <div class="caption">
           <h4 class="pull-right price">
-           $24.99
+           $404.23
           </h4>
           <h4>
-           <a class="title" href="/test-sites/e-commerce/allinone/product/486" title="Nokia 123">
-            Nokia 123
+           <a class="title" href="/test-sites/e-commerce/allinone/product/557" title="Lenovo ThinkPad E31-80">
+            Lenovo ThinkPad...
            </a>
           </h4>
           <p class="description">
-           7 day battery
+           Lenovo ThinkPad E31-80, 13.3" HD, Celeron 3855U 1.6GHz, 4GB, 128GB SSD, Windows 10 Home
           </p>
          </div>
          <div class="ratings">
           <p class="pull-right">
-           11 reviews
-          </p>
-          <p data-rating="3">
-           <span class="glyphicon glyphicon-star">
-           </span>
-           <span class="glyphicon glyphicon-star">
-           </span>
-           <span class="glyphicon glyphicon-star">
-           </span>
-          </p>
-         </div>
-        </div>
-       </div>
-       <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-         <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
-         <div class="caption">
-          <h4 class="pull-right price">
-           $809.00
-          </h4>
-          <h4>
-           <a class="title" href="/test-sites/e-commerce/allinone/product/537" title="Acer Nitro 5 AN515-51">
-            Acer Nitro 5 AN5...
-           </a>
-          </h4>
-          <p class="description">
-           Acer Nitro 5 AN515-51, 15.6" FHD IPS, Core i5-7300HQ, 8GB, 1TB, GeForce GTX 1050 2GB, Windows 10 Home
-          </p>
-         </div>
-         <div class="ratings">
-          <p class="pull-right">
-           0 reviews
+           12 reviews
           </p>
           <p data-rating="1">
            <span class="glyphicon glyphicon-star">
@@ -291,22 +260,51 @@
          <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
          <div class="caption">
           <h4 class="pull-right price">
-           $1139.54
+           $899.99
           </h4>
           <h4>
-           <a class="title" href="/test-sites/e-commerce/allinone/product/593" title="Asus AsusPro Advanced BU401LA-FA271G Dark Grey">
-            Asus AsusPro Adv...
+           <a class="title" href="/test-sites/e-commerce/allinone/product/492" title="Iphone">
+            Iphone
            </a>
           </h4>
           <p class="description">
-           Asus AsusPro Advanced BU401LA-FA271G Dark Grey, 14", Core i5-4210U, 4GB, 128GB SSD, Win7 Pro 64bit, ENG
+           White
           </p>
          </div>
          <div class="ratings">
           <p class="pull-right">
-           7 reviews
+           10 reviews
           </p>
-          <p data-rating="3">
+          <p data-rating="1">
+           <span class="glyphicon glyphicon-star">
+           </span>
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail">
+         <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
+         <div class="caption">
+          <h4 class="pull-right price">
+           $739.99
+          </h4>
+          <h4>
+           <a class="title" href="/test-sites/e-commerce/allinone/product/519" title="ProBook">
+            ProBook
+           </a>
+          </h4>
+          <p class="description">
+           14", Core i5 2.6GHz, 4GB, 500GB, Win7 Pro 64bit
+          </p>
+         </div>
+         <div class="ratings">
+          <p class="pull-right">
+           8 reviews
+          </p>
+          <p data-rating="4">
+           <span class="glyphicon glyphicon-star">
+           </span>
            <span class="glyphicon glyphicon-star">
            </span>
            <span class="glyphicon glyphicon-star">

@@ -7,6 +7,9 @@ import './App.css';
 import Home from './components/Home';
 import Modal from './components/Modal';
 import ErrorModal from './components/ErrorModal';
+import About from './components/About';
+import ExploreMore from './components/ExploreMore';
+import ContactUs from './components/ContactUs';
 
 
 function App() {
@@ -17,12 +20,15 @@ function App() {
   const [errorModal,setErrorModal] = useState(false)
   return (
     <div className="App">
-     {openHome &&<Home showHome={setOpenHome} openModal={setOpenModal} errorModal={setErrorModal}/>}
+     {/* {openHome &&<Home showHome={setOpenHome} openModal={setOpenModal} errorModal={setErrorModal}/>}
      {openModal &&<Modal closeModal={setOpenModal} showHome={setOpenHome}/>}
      <div className='errorOuter'>
         {errorModal &&<ErrorModal errorModal={setErrorModal} showHome={setOpenHome}/>}
-     </div>
-  
+     </div> */}
+     <Home/>
+     <About/>
+    <ExploreMore/>
+    <ContactUs/>
 
     
      </div>

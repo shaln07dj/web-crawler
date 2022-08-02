@@ -36,7 +36,7 @@ button {
   border-width: 0;
 }
 
-.homeOuter{align-items: center;
+/* .homeOuter{align-items: center;
   display: flex;
   justify-content: center;
  }
@@ -50,7 +50,7 @@ button {
   height: 50vh;
   align-items:center;
   background-image: linear-gradient(to bottom right,rgb(31, 29, 53) , #247a80)
- }
+ } */
 
  .errorOuter{
   width: 100%;

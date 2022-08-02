@@ -7,8 +7,19 @@ import { useNavigate } from 'react-router-dom';
 
 import { getInfo } from '../slice/siteInfoSlice';
 
-import icon from '../icon/right-arrow.png'
-const Home = ({showHome,openModal,errorModal}) => {
+import icon from '../icon/right-arrow.png';
+import styles from "../styles/home.module.css";
+import Nav from './Nav';
+import About from './About';
+import Overlap from './Overlap';
+import ExploreMore from './ExploreMore';
+import ContactUs from './ContactUs';
+import DataModal from './DataModal';
+// const Home = ({showHome,openModal,errorModal}) => {
+  const Home = () => {
+  const [openModal,setOpenModal]=useState(true)
+  const [openHome,setOpenHome]=useState(true)
+  const [errorModal,setErrorModal] = useState(false)
   const navigate = useNavigate();
 
     const [site_name,setsite_Name]=useState("")
@@ -31,13 +42,14 @@ const Home = ({showHome,openModal,errorModal}) => {
           console.log(res.data.status)
           if(res.data.status==="400"){
             alert("Error Occured")
-            showHome(true)
+            // showHome(true)
+            // Modal(true)
           }
           else{
-            openModal(true)
+            // openModal(true)
            
             
-            showHome(false)
+            // showHome(false)
 
           }
           dispatch(getInfo(res.data))
@@ -48,8 +60,8 @@ const Home = ({showHome,openModal,errorModal}) => {
           })
       }
       else{
-        errorModal(true)
-        showHome(false)
+        // errorModal(true)
+        // showHome(false)
       }
      
             
@@ -59,13 +71,14 @@ const Home = ({showHome,openModal,errorModal}) => {
 
   return (
     <>
-
-    <div style={{"backgroundImage":" linear-gradient(to bottom right,rgb(128, 121, 225) , rgb(33, 5, 103))","height":"100vh"}}>
+<Nav/>
+<div className={styles.outer}>
+    <div className={styles.center}style={{}}>
       <div style={{"alignItems":"center"}}>
    
       <h2 style={{"color":"#fff"}}> Web Crawler Engine </h2>
      
-      </div>
+      
         <div className={'homeOuter'} >
           <div className={'homeInner'}>
             <div>
@@ -85,7 +98,25 @@ const Home = ({showHome,openModal,errorModal}) => {
         </div>
         </div>
         </div>
+
+{/* here */}
+
+ {/* {openHome &&<Overlap showHome={setOpenHome} openModal={setOpenModal} errorModal={setErrorModal}/>}
+     {openModal &&<DataModal closeModal={setOpenModal} showHome={setOpenHome}/>} */}
+     <Overlap/>
+   
+   
+   
+   
+     {/* <div className='errorOuter'>
+        {errorModal &&<ErrorModal errorModal={setErrorModal} showHome={setOpenHome}/>}
+     </div> */}
+
+</div>
+
     </div> 
+    </div>
+
        </>
   )
 }

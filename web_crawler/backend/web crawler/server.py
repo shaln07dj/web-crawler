@@ -1,4 +1,3 @@
-
 from urllib import response
 from flask import Flask,Response
 import pymongo,json, requests
