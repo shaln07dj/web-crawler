@@ -1,0 +1,52 @@
+.main{
+    margin-top: 50px;
+  
+    width: 30vh;
+    height: 120vh;
+    
+}
+
+.navTop{
+    
+    height: 10vh;
+
+}
+.navTop_inner{
+margin-top: 5px;
+
+}
+.sub_text{
+    margin-top:-20px;
+    font-size: smaller;
+}
+
+.sub_section{
+    margin-top: 20px;
+    display: flex;
+ 
+    flex-direction:column;
+   
+    width: 100%;
+    float: left;
+}
+.sub_section_title{
+    height: 10px;
+
+    margin-left: 10px;
+    font-size: 10px;
+   
+    font-weight: 500;
+    color:rgba(128, 128, 128, 0.701);
+    float: left;
+    text-align: left;
+    display: block;
+}
+
+.sub_section_item{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: left;
+    float: left;
+
+}
