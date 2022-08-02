@@ -1,0 +1,17 @@
+.main{
+    margin-top: 50px;
+    height: 120vh;
+    width: 100%;
+      box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+    /* background-color: aqua; */
+    
+}
+
+.nav{
+    background-color:  rgb(11, 29, 170);
+    height: 20vh;
+    z-index: -1;
+
+
+}
