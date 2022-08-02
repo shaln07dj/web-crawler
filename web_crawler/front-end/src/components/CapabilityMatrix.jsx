@@ -7,7 +7,28 @@ const CapabilityMatrix = () => {
     <>
       <div className={styles.main}>
         <div className={styles.cards_container}>
-          <div className={styles.top_bar}></div>
+          <div className={styles.top_bar}>
+            <div className={styles.top_bar_container}>
+              <div className={styles.top_bar_data}>
+                <div className={styles.top_bar_inner}>
+                  <div className={styles.top_bar_left}><h3>Capability Matrix</h3></div>
+                  <div className={styles.top_bar_right}>
+                    <div className={styles.top_bar_left_inner}>
+                    </div>
+
+                    <div className={styles.top_bar_right_inner}>
+                    <div className={styles.search_wrapper}>
+    <input  className={styles.top_bar_input}type="text" palceholder= 'Search by Team Name' />
+    <button className={styles.top_bar_btn}>GO</button>
+</div>
+                    </div>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
           <div className={styles.cards2_outer}>
             <div className={styles.cards2_data}>
               <div className={styles.cards2_inner}>
