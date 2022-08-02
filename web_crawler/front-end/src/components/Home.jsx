@@ -17,13 +17,14 @@ import ContactUs from './ContactUs';
 import DataModal from './DataModal';
 // const Home = ({showHome,openModal,errorModal}) => {
   const Home = () => {
-  const [openModal,setOpenModal]=useState(true)
-  const [openHome,setOpenHome]=useState(true)
-  const [errorModal,setErrorModal] = useState(false)
+  const [modalValue,setModalValue]=useState(false)
+ 
+
   const navigate = useNavigate();
 
     const [site_name,setsite_Name]=useState("")
     const [url,setUrl]=useState("") 
+    const [value,setValue] = useState("")
 
     const dispatch = useDispatch()
   
@@ -40,6 +41,8 @@ import DataModal from './DataModal';
         
         }).then((res)=>{
           console.log(res.data.status)
+          setValue(url)
+          setModalValue(true)
           if(res.data.status==="400"){
             alert("Error Occured")
             // showHome(true)
@@ -88,7 +91,8 @@ import DataModal from './DataModal';
             </br>
 </div>
 <div style={{"marginTop":"10px"}}>
-    <input type="text" onChange={(e)=>{setUrl(e.target.value)}} placeholder='Enter Url Here' name ='url'/>
+    <input type="url" name="url" id="url"
+       placeholder="https://example.com" onChange={(e)=>{setUrl(e.target.value)}}  pattern="https?://.+" required/>
 </div>
 <div style={{"marginTop":"20px"}}>
     <button onClick={handleSubmit}type="submit" name ="button" >
@@ -98,19 +102,8 @@ import DataModal from './DataModal';
         </div>
         </div>
         </div>
+     <Overlap info={value} viewModal={modalValue}/>
 
-{/* here */}
-
- {/* {openHome &&<Overlap showHome={setOpenHome} openModal={setOpenModal} errorModal={setErrorModal}/>}
-     {openModal &&<DataModal closeModal={setOpenModal} showHome={setOpenHome}/>} */}
-     <Overlap/>
-   
-   
-   
-   
-     {/* <div className='errorOuter'>
-        {errorModal &&<ErrorModal errorModal={setErrorModal} showHome={setOpenHome}/>}
-     </div> */}
 
 </div>
 
