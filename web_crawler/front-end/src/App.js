@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import {useEffect,useState} from 'react'
-import axios from 'axios';
+import { Element } from "react-scroll";
 import './index.css';
 
 import './App.css';
@@ -10,6 +10,8 @@ import ErrorModal from './components/ErrorModal';
 import About from './components/About';
 import ExploreMore from './components/ExploreMore';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import { Link, Navigate } from 'react-router-dom';
 
 
 function App() {
@@ -25,10 +27,31 @@ function App() {
      <div className='errorOuter'>
         {errorModal &&<ErrorModal errorModal={setErrorModal} showHome={setOpenHome}/>}
      </div> */}
-     <Home/>
-     <About/>
+     <Element  id="/home" name="aboutme">
+     {/* <Navigate to="/home" replace={true} /> */}
+     
+ <Home/>
+     </Element>
+     <Element  id="/about" name="aboutme">
+  <About/>
+     </Element>
+    
+     <Element  id="/pricing" name="pricing">
     <ExploreMore/>
-    <ContactUs/>
+     </Element>
+    
+     <Element  id="/contactus" name="contact">
+     <ContactUs/>
+     </Element>
+     <Element  id="/support" name="contact">
+     <div style={{"marginTop":"-70px"}}>
+       <Footer/> 
+    </div>
+    </Element>
+
+  
+    
+
 
     
      </div>

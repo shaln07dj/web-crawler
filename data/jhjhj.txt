@@ -233,20 +233,20 @@
          <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
          <div class="caption">
           <h4 class="pull-right price">
-           $93.99
+           $1140.62
           </h4>
           <h4>
-           <a class="title" href="/test-sites/e-commerce/allinone/product/488" title="Samsung Galaxy">
-            Samsung Galaxy
+           <a class="title" href="/test-sites/e-commerce/allinone/product/594" title="Acer Nitro 5 AN515-51">
+            Acer Nitro 5 AN5...
            </a>
           </h4>
           <p class="description">
-           5 mpx. Android 5.0
+           Acer Nitro 5 AN515-51, 15.6" FHD IPS, Core i7-7700HQ, 8GB, 256GB SSD +1TB, GeForce GTX 1050 Ti 4GB, Windows 10 Home + Windows 10 Home
           </p>
          </div>
          <div class="ratings">
           <p class="pull-right">
-           3 reviews
+           14 reviews
           </p>
           <p data-rating="3">
            <span class="glyphicon glyphicon-star">
@@ -264,22 +264,28 @@
          <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
          <div class="caption">
           <h4 class="pull-right price">
-           $1221.58
+           $103.99
           </h4>
           <h4>
-           <a class="title" href="/test-sites/e-commerce/allinone/product/611" title="Acer Predator Helios 300 (PH317-51)">
-            Acer Predator He...
+           <a class="title" href="/test-sites/e-commerce/allinone/product/498" title="Amazon Kindle">
+            Amazon Kindle
            </a>
           </h4>
           <p class="description">
-           Acer Predator Helios 300 (PH317-51), 17.3" FHD IPS, Core i7-7700HQ, 8GB, 1TB + 128GB SSD, GeForce GTX 1050 Ti 4GB, Windows 10 Home
+           6" screen, wifi
           </p>
          </div>
          <div class="ratings">
           <p class="pull-right">
-           9 reviews
+           3 reviews
           </p>
-          <p data-rating="1">
+          <p data-rating="4">
+           <span class="glyphicon glyphicon-star">
+           </span>
+           <span class="glyphicon glyphicon-star">
+           </span>
+           <span class="glyphicon glyphicon-star">
+           </span>
            <span class="glyphicon glyphicon-star">
            </span>
           </p>
@@ -291,20 +297,20 @@
          <img alt="item" class="img-responsive" src="/images/test-sites/e-commerce/items/cart2.png"/>
          <div class="caption">
           <h4 class="pull-right price">
-           $899.00
+           $1333.00
           </h4>
           <h4>
-           <a class="title" href="/test-sites/e-commerce/allinone/product/538" title="Asus ROG STRIX GL553VD-DM256">
-            Asus ROG STRIX G...
+           <a class="title" href="/test-sites/e-commerce/allinone/product/623" title='Apple MacBook Pro 13" Space Gray'>
+            Apple MacBook Pr...
            </a>
           </h4>
           <p class="description">
-           Asus ROG STRIX GL553VD-DM256, 15.6" FHD, Core i5-7300HQ, 8GB, 1TB, GeForce GTX 1050 2GB, No OS + Windows 10 Home
+           Apple MacBook Pro 13" Space Gray, Core i5 2.3GHz, 8GB, 128GB SSD, Iris Plus 640, ENG
           </p>
          </div>
          <div class="ratings">
           <p class="pull-right">
-           7 reviews
+           0 reviews
           </p>
           <p data-rating="1">
            <span class="glyphicon glyphicon-star">
