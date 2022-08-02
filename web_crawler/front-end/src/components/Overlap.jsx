@@ -16,12 +16,14 @@ import DataModal from './DataModal';
 
 
 
-const Overlap = () => {
+const Overlap = (props) => {
   const [show,setShow] =useState(true)
 
-  const [openModal,setOpenModal]=useState(false)
+  const [openModal,setOpenModal]=useState(props.viewModal)
   const [openvisualData,setOpenVisualData]=useState(true)
   const [errorsideBar,setSideBar] = useState(false)
+
+
 
   const handleLeftClick=()=>{
     console.log("Clicked")
@@ -32,6 +34,7 @@ const Overlap = () => {
 
   const handleRightClick=()=>{
     console.log("Clicked")
+    console.log(props.viewModal)
    
     setOpenModal(true)
     setOpenVisualData(false)
@@ -58,15 +61,13 @@ const Overlap = () => {
 <div className={styles.middle}>
 <div className={styles.inner}></div>
 
-<div className={styles.inner}><input className={styles.input_nav}/></div>
+<div className={styles.inner}><input value={props.info}className={styles.input_nav}/></div>
 <div className={styles.inner}></div>
 
 
 </div>
 <div className={styles.right}>
-   <button >Login <i class="far fa-arrow-right"></i></button> 
-   <button >Login <i class="far fa-arrow-right"></i></button> 
-   <button >Login <i class="far fa-arrow-right"></i></button> 
+ 
      
 </div>
 
