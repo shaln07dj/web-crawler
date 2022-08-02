@@ -1,0 +1,149 @@
+
+.main{
+   
+}
+
+.cards_container{
+    border-radius: 5px;
+/* box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.2); */
+}
+.top_bar{
+    height: 10vh;
+    background-color: chartreuse;
+}
+.outer1{
+  
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+  
+
+   
+      
+}
+.inner1{
+    padding: 0;
+    
+    /* background-image: linear-gradient(to bottom right,rgb(116, 112, 220) , rgb(236, 239, 244)); */
+    margin-top: -2vh;
+    height:25vh;
+    width:95%;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    
+
+}
+.cards2_outer{
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+
+
+.cards2_inner{
+
+    width: 100%;
+display: flex;
+}
+
+.cards2_data{
+    margin-top: 0vh;
+  
+    height:70%;
+    width:95%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: #fff; */
+    
+
+}
+
+
+
+.card1_item{
+     background-color: #fff;  
+width:35%;
+height: 20vh;
+border:  1.5px solid rgba(181, 180, 180, 0.675);
+
+border-radius: 5px;
+/* box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2); */
+
+float: left;
+}
+
+.card2_item{
+    width:35%;
+    height: 20vh;
+    /* background-color:rgb(241, 234, 234); */
+    background-color: #fff;
+margin-left: 2vw;
+border:  1.5px solid rgba(181, 180, 180, 0.675);
+
+border-radius: 5px;
+/* box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2); */
+
+
+    }
+    .card3_item{
+   
+        width:25%;
+        height: vh;
+        background-color: #fff;
+        margin-left: 2vw;
+        border:  1.5px solid rgba(181, 180, 180, 0.675);
+ border-radius: 5px;
+/* box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2); */
+
+        }
+
+        .card_outlet{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: hotpink;  */
+
+
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    /* border-left:  2px solid black */
+
+}
+
+.content{
+     
+    height: 80%;
+    border-left:  .75px solid rgba(181, 180, 180, 0.675)
+}
+
+.content_left{
+    width: 100%; 
+    height: 80%;
+    border-right:  .75x solid rgba(181, 180, 180, 0.675)
+}
+
+
+
