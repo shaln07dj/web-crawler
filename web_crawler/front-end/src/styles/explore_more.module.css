@@ -1,0 +1,15 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.data{
+    margin-top: 0vh;
+    background-image: linear-gradient(to bottom right,rgb(116, 112, 220) , rgb(236, 239, 244));
+    height:40vh;
+    width:90%;
+    border-radius: 10px;
+    
+
+}

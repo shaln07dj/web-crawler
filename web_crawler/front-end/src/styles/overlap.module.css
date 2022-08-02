@@ -1,0 +1,72 @@
+.data1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    margin-top: 0vh;
+    background-color: #fff;
+    height:120vh;
+    width:90%;
+    border-radius: 10px;
+    
+
+}
+
+.inner{
+  display: flex;
+}
+
+.top_bar{
+  height: 5vh;
+  width:90%;
+}
+
+.input_nav{
+  margin-top: 10px;
+  margin-left: -150px;
+  float: left;
+  width: 30vw;
+  height: 2vh;
+  background-color: aliceblue;
+}
+
+
+.outter{
+  margin-top: 10px; 
+
+
+}
+
+.nav{
+  
+  display: flex;
+  background-color: #fff;
+
+}
+.nav_button{
+  margin-top: 10px;
+display: flex;
+
+}
+.middle{
+  margin-left: 0px;
+  float: left;
+  width: 100px;
+  display: flex;
+
+
+}
+.left{
+float: left;
+  width: 500px;
+  display: flex;
+
+
+
+
+}
+.right{ 
+  margin-left: 500px;
+
+}

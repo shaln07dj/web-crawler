@@ -1,0 +1,146 @@
+.outer1{
+  
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+  
+
+   
+      
+}
+.inner1{
+    padding: 0;
+    
+    /* background-image: linear-gradient(to bottom right,rgb(116, 112, 220) , rgb(236, 239, 244)); */
+    margin-top: -2vh;
+    height:25vh;
+    width:95%;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    
+
+}
+
+
+.cards1_outer{
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.cards1_data{
+    margin-top: 0vh;
+  
+    height:70%;
+    width:100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: #fff; */
+    
+
+}
+
+.cards1_inner{
+
+    width: 100%;
+display: flex;
+}
+
+.card1_item{
+     background-color: #fff;  
+width:30%;
+height: 20vh;
+border-radius: 5px;
+box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
+
+float: left;
+}
+
+.card2_item{
+    width:30%;
+    height: 20vh;
+    /* background-color:rgb(241, 234, 234); */
+    background-color: #fff;
+margin-left: 2vw;
+border-radius: 5px;
+box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
+
+
+    }
+    .card3_item{
+        background-color: #fff;
+        width:30%;
+        height: vh;
+        
+        margin-left: 2vw;
+ border-radius: 5px;
+box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
+
+        }
+
+
+.card_outlet{
+    width: 100%;
+    height: 100%;
+   
+  
+}
+
+.card_upper{
+    height: 70%;
+}
+
+.card_lower{
+    height: 30%;
+}
+
+.card_lower_outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+}
+
+.card_lower_left{
+    height: 100%;
+    width: 30%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card_lower_left_content{}
+.card_lower_right{
+    width: 70%;
+    background-color:#fff;
+}
+
+.line_graph{
+    width: 4vw;
+}
+.text_container{
+   
+        display: flex;
+        justify-content:space-between;
+        flex-direction:column;
+        float: left;
+}
+.small_text{
+    float: left;
+    font-size: 10px;
+    flex-direction: column-reverse;
+  }
+
+.bigger_text{
+    margin-left: -30px;
+    float:left ;
+    color: rgb(43, 43, 86);
+    font-size: 25px;
+    font-weight: bold;
+}

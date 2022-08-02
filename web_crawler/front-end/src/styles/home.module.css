@@ -1,0 +1,30 @@
+.outer{
+    width:"100px";
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.center{
+ margin-top: -70vh;
+    background-image: linear-gradient(to bottom right,rgb(121, 147, 225) , rgb(29, 115, 228));
+    height:120vh;
+    width:90%;
+    border-radius: 10px;
+    
+
+}
+.data1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    margin-top: 0vh;
+    background-image: linear-gradient(to bottom right,rgb(252, 252, 252) , rgb(236, 239, 244));
+    height:120vh;
+    width:90%;
+    border-radius: 10px;
+
+}
