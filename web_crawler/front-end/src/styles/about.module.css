@@ -1,5 +1,6 @@
 .outer{
-    margin-top: -100px;
+    
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +8,7 @@
 
 .inner{
     width: 90%;
-    height: 150vh;
+    height: 100vh;
     text-align: center;
    
 }
@@ -17,20 +18,23 @@
     /* background-color: aliceblue; */
     float: left;
     width: 60%;
-    height: 150vh;
+    height: 100vh;
     background-image: url("../images/legal.jpg"); 
+    background-position: center;
     background-repeat: no-repeat;
+ 
+  
     border-radius:10px;
  
 }
 
 .right{
     float: left;
-    margin-top: 200px;
-    margin-left: -250px;
+    margin-top: 250px;
+    margin-left: -200px;
     background-image: url("../images/background.jpg"); 
     background-repeat: no-repeat;
-    width: 600px;
+    width: 700px;
     height: 350px;
 
 }
